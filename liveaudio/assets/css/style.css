@@ -1,5 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Rajdhani:wght@400;500;600;700&display=swap");
 
+/*
+.logo img {
+    width: 100px;
+    height: auto;
+    max-width: 120px;
+}
+ */
+
+
+@media (max-width: 991px) {
+    .hamburger {
+        display: none;
+    }
+
+    .main-menu {
+        display: inline;
+    }
+
+    .logo img {
+        width: 200px;
+        height: auto;
+        max-width: 200px;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        width: calc(100% - 20px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+    }
+}
+
+@media (max-width: 479px) {
+    .hamburger {
+        display: block;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        width: calc(100% - 20px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+    }
+}
+
 .white-bg {
     background: #ffffff
 }
@@ -581,7 +636,8 @@ hr {
     border-radius: 50%;
     line-height: 48px;
     border: 2px solid transparent;
-    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2)
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+    z-index: 999;
 }
 
 @media (max-width: 575px) {
