@@ -22,43 +22,46 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <header>
-        <div class="header-area header-transparent" style="background-color: #e0e0e0;">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-xl-2 col-lg-2 col-md-1">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/img/gallery/logo.png" alt="" style="width:70%; height:70%;"></a>
-                            </div>
+<body class="hero-anime">
+    <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/gallery/logo_.png" alt=""/></a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="index.html" role="button"
+                                       aria-haspopup="true" aria-expanded="false">Početna</a>
+                                </li>
+
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="about.html">O Nama</a>
+                                </li>
+
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                    <a class="nav-link" href="#">Oprema</a>
+                                </li>
+
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                    <a class="nav-link" href="contact.html">Kontakt</a>
+                                </li>
+
+                            </ul>
                         </div>
-                        <div class="col-xl-9 col-lg-10">
-							<div class="main-menu black-menu menu-bg-white d-none d-lg-block">
-								<div class="hamburger hamburger--collapse">
-									<div class="hamburger-box">
-										<div class="hamburger-inner"></div>
-									</div>
-								</div>
-								<nav class="hamburger-menu">
-									<ul id="navigation">
-										<li><a href="index.html">Naslovna</a></li>
-										<li><a href="about.html">O Nama</a></li>
-										<li><a href="equipment.html">Oprema</a></li>
-										<li><a href="contact.html">Kontakt</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 
     <main>
         <div class="slider-area2">
@@ -141,6 +144,6 @@
     <script src="./assets/js/jquery.ajaxchimp.min.js"></script>	
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
-    
+    <script src="assets/js/head.js"></script>
     </body>
 </html>
