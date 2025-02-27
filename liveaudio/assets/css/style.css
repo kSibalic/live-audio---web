@@ -90,7 +90,7 @@
     color: #212121 !important;
 }
 .nav-item.active .nav-link{
-    color: #ff1f1f !important;
+    color: #B30303 !important;
 }
 .nav-link {
     position: relative;
@@ -104,7 +104,7 @@
     width: 100%;
     height: 2px;
     content: '';
-    background-color: #ff1f1f;
+    background-color: #B30303;
     opacity: 0;
     transition: all 200ms linear;
 }
@@ -198,7 +198,7 @@ body.hero-anime p{
 .dropdown-item:hover,
 .dropdown-item:focus {
     color: #e2e2e2;
-    background-color: #ff1f1f;
+    background-color: #B30303;
 }
 
 @media (max-width: 767px) {
@@ -287,7 +287,7 @@ body.hero-anime p{
 }
 
 .theme-bg {
-    background: #ff1f1f
+    background: #B30303;
 }
 
 .brand-bg {
@@ -307,30 +307,30 @@ body.hero-anime p{
 }
 
 .theme-color {
-    color: #ff1f1f
+    color: #B30303;
 }
 
 .boxed-btn {
     background: #fff;
-    color: #ff1f1f !important;
+    color: #B30303 !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Rajdhani", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #ff1f1f;
+    border: 1px solid #B30303;
     letter-spacing: 3px;
     text-align: center;
-    color: #ff1f1f;
+    color: #B30303;
     text-transform: uppercase;
     cursor: pointer
 }
 
 .boxed-btn:hover {
-    background: #ff1f1f;
+    background: #B30303;
     color: #fff !important;
-    border: 1px solid #ff1f1f
+    border: 1px solid #B30303
 }
 
 .boxed-btn:focus {
@@ -702,7 +702,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #CE0000;
+    background: #B30303;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -814,7 +814,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #ff1f1f;
+    background: #B30303;
     z-index: -1;
     transition: transform 0.5s;
     transition-timing-function: ease;
@@ -835,7 +835,7 @@ hr {
 
 #scrollUp,
 #back-top {
-    background: #CE0000;
+    background: #B30303;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -2269,7 +2269,7 @@ hr {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: #ff1f1f;
+    border-top-color: #B30303;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -2700,7 +2700,7 @@ hr {
     content: "";
     width: 50px;
     height: 2px;
-    background: #CE0000;
+    background: #B30303;
     top: 0;
     left: -67px;
     top: 50%;
@@ -2763,7 +2763,7 @@ hr {
 }
 
 .section-tittle3 span::before {
-    background: #CE0000;
+    background: #B30303;
 }
 
 .section-tittle3 h2 {
@@ -2804,7 +2804,7 @@ hr {
 }
 
 .theme-bg {
-    background: #ff1f1f
+    background: #B30303
 }
 
 .brand-bg {
@@ -2824,7 +2824,7 @@ hr {
 }
 
 .theme-color {
-    color: #ff1f1f
+    color: #B30303
 }
 
 .header-area .main-header {
@@ -2913,7 +2913,7 @@ hr {
 }
 
 .header-area .main-header .main-menu ul li ul.submenu>li>a:hover {
-    color: #ff1f1f;
+    color: #B30303;
     background: none
 }
 
@@ -3582,7 +3582,7 @@ nav.nav-menu-show {
 
 .popular-work-area .single-cat .img-cap p {
     font-size: 15px;
-    color: #CE0000;
+    color: #B30303;
 }
 
 .popular-work-area .single-cat:hover .img-cap {
@@ -4000,7 +4000,7 @@ nav.nav-menu-show {
 }
 
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
-    color: #ff1f1f;
+    color: #B30303;
     font-size: 20px;
     font-weight: 600;
     color: #f04e3c
@@ -4053,7 +4053,7 @@ nav.nav-menu-show {
     left: -47px;
     top: 50%;
     transform: translateY(-50%);
-    background: #ff1f1f
+    background: #B30303
 }
 
 .single-team .team-caption h3 a {
@@ -4151,11 +4151,11 @@ nav.nav-menu-show {
 }
 
 .footer-area .footer-bottom .footer-copy-right p i {
-    color: #ff1f1f
+    color: #B30303
 }
 
 .footer-area .footer-bottom .footer-copy-right p a {
-    color: #ff1f1f
+    color: #B30303
 }
 
 .footer-area .footer-bottom .footer-social a {
@@ -4873,7 +4873,7 @@ nav.nav-menu-show {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #ff1f1f;
+    background-color: #B30303;
     padding: 8px 15px;
     border-radius: 5px
 }
@@ -4955,7 +4955,7 @@ nav.nav-menu-show {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-    background: #ff1f1f;
+    background: #B30303;
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 4px 15px;
